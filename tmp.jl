@@ -1,0 +1,89 @@
+function default_swarm_names(l::LoKI)
+    default_names = [
+        "RedField(Td)" => :reduced_field,
+        "RedDiff((ms)^-1)" => :reduced_diffusion_coef,
+        "RedMob((msV)^-1)" => :reduced_mobility,
+        "DriftVelocity(ms^-1)" => :drift_velocity,
+        "RedTow(m^2)" => :reduced_townsend_alpha_coef,
+        "RedAtt(m^2)" => :reduced_attachment_coef,
+        "RedDiffE(eV(ms)^-1)" => :reduced_energy_diffusion_coef,
+        "RedMobE(eV(msV)^-1)" => :reduced_energy_mobility,
+        "MeanE(eV)" => :mean_energy,
+        "CharE(eV)" => :characteristic_energy,
+        "EleTemp(eV)" => :electron_temperature,
+        # "PowerField(eVm^3s^-1)" => nothing,
+        # "PwrElaGain(eVm^3s^-1)" => nothing,
+        # "PwrElaLoss(eVm^3s^-1)" => nothing,
+        # "PwrElaNet(eVm^3s^-1)" => nothing,
+        # "PwrCARGain(eVm^3s^-1)" => nothing,
+        # "PwrCARLoss(eVm^3s^-1)" => nothing,
+        # "PwrCARNet(eVm^3s^-1)" => nothing,
+        # "PwrEleGain(eVm^3s^-1)" => nothing,
+        # "PwrEleLoss(eVm^3s^-1)" => nothing,
+        # "PwrEleNet(eVm^3s^-1)" => nothing,
+        # "PwrVibGain(eVm^3s^-1)" => nothing,
+        # "PwrVibLoss(eVm^3s^-1)" => nothing,
+        # "PwrVibNet(eVm^3s^-1)" => nothing,
+        # "PwrRotGain(eVm^3s^-1)" => nothing,
+        # "PwrRotLoss(eVm^3s^-1)" => nothing,
+        # "PwrRotNet(eVm^3s^-1)" => nothing,
+        # "PwrIon(eVm^3s^-1)" => nothing,
+        # "PwrAtt(eVm^3s^-1)" => nothing,
+        # "PwrGroth(eVm^3s^-1)" => nothing,
+        # "PwrBalance(eVm^3s^-1)" => nothing,
+        # "RelPwrBalance" => nothing,
+    ]
+end
+
+# function default_swarm_names(l::LoKIMC)
+    # default_names = [
+        # "RedElecField(Td)" => :reduced_field,
+        # "MeanE(eV)" => :mean_energy,
+        # "EleTemp(eV)" => :electron_temperature,
+        # "CharacEnergy_eedf(eV)" =>:characteristic_energy,
+        # "IonCoeff(m3/s)" => nothing,
+        # "AttCoeff(m3/s)" => nothing,
+        # "RedDiffE_eedf(eV/(ms))" => nothing,
+        # "RedMobE_eedf(eV/(msV))" => nothing,
+        # "RedDiff_eedf(1/(ms))" => nothing,
+        # "RedMob_DC_eedf(1/(msV))" => nothing,
+# 
+        # "RedDiff((ms)^-1)" => :reduced_diffusion_coef,
+        # "RedMob((msV)^-1)" => :reduced_mobility,
+        # "DriftVelocity(ms^-1)" => :drift_velocity,
+        # "RedTow(m^2)" => :reduced_townsend_alpha_coef,
+        # "RedAtt(m^2)" => :reduced_attachment_coef,
+        # "RedDiffE(eV(ms)^-1)" => :reduced_energy_diffusion_coef,
+        # "RedMobE(eV(msV)^-1)" => :reduced_energy_mobility,
+        # "PowerField(eVm3/s)" => nothing
+        # "PwrElaGain(eVm3/s)" => nothing
+        # "PwrElaLoss(eVm3/s)" => nothing
+        # "PwrElaNet(eVm3/s)" => nothing
+        # "PwrEleGain(eVm3/s)" => nothing
+        # "PwrEleLoss(eVm3/s)" => nothing
+        # "PwrEleNet(eVm3/s)" => nothing
+        # "PwrVibGain(eVm3/s)" => nothing
+        # "PwrVibLoss(eVm3/s)" => nothing
+        # "PwrVibNet(eVm3/s)" => nothing
+        # "PwrRotGain(eVm3/s)" => nothing
+        # "PwrRotLoss(eVm3/s)" => nothing
+        # "PwrRotNet(eVm3/s)" => nothing
+        # "PwrIon(eVm3/s)" => nothing
+        # "PwrAtt(eVm3/s)" => nothing
+        # "PwrGrowth(eVm3/s)" => nothing
+        # "PwrBalance(eVm3/s)" => nothing
+        # "RelPwrBalance" => nothing
+        # "FluxND_xx(1/(ms))" => nothing
+        # "FluxND_yy(1/(ms))" => nothing
+        # "FluxND_zz(1/(ms))" => nothing
+        # "FluxV_x(m/s)" => nothing
+        # "FluxV_y(m/s)" => nothing
+        # "FluxV_z(m/s)" => nothing
+        # "BulkND_xx(1/(ms))" => nothing
+        # "BulkND_yy(1/(ms))" => nothing
+        # "BulkND_zz(1/(ms))" => nothing
+        # "BulkV_x(m/s)" => nothing
+        # "BulkV_y(m/s)" => nothing
+        # "BulkV_z(m/s)" => nothing
+    # ]
+# end
